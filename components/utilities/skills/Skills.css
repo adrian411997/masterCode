@@ -1,0 +1,44 @@
+.skills-space {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px 0px;
+  flex-direction: column;
+}
+.skills-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 60%;
+}
+.skills-logo {
+  width: 30%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0px;
+}
+.skills-button button {
+  padding: 30px 50px;
+  border: 1px solid rgb(119, 40, 230);
+  color: white;
+  border-radius: 100px;
+  background-color: rgb(119, 40, 230);
+  font-size: 20px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}
+.skills-button button:hover {
+  border: 1px solid black;
+  background-color: black;
+}
+@media (max-width: 1025px) {
+  .skills-container {
+    width: 90%;
+  }
+  .skills-button button {
+    padding: 15px 25px;
+    font-size: 15px;
+  }
+}

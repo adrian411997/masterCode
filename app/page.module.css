@@ -1,0 +1,23 @@
+.homeContent {
+  background: rgb(8, 24, 40);
+  background: linear-gradient(
+    73deg,
+    rgba(8, 24, 40, 1) 56%,
+    rgba(46, 30, 105, 1) 85%
+  );
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  border-bottom-left-radius: 5em;
+  border-bottom-right-radius: 5em;
+}
+.homeContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  color: white;
+}

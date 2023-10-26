@@ -1,0 +1,20 @@
+.contact-space {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact-container {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.contact-container > div {
+  width: 45%;
+}
+@media (max-width: 1025px) {
+  .action-call {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+}

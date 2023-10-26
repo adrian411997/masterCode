@@ -1,0 +1,74 @@
+.carac-space-title {
+  color: white;
+}
+
+.ToolsFlex {
+  flex-direction: column;
+  width: 30%;
+}
+.ToolsFlex > .card {
+  background-color: #181828 !important;
+  color: white;
+  height: fit-content;
+  margin: 30px 0px;
+  border: 1px solid #181828;
+  width: 90%;
+}
+.carac-girl {
+  width: 30%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0px 50px;
+}
+.back {
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+.carac-container {
+  display: flex;
+}
+.prettyGirl {
+  position: relative;
+  z-index: 2;
+}
+.carac-content {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.carac-button {
+  margin: 20px 0px;
+}
+.carac-button button {
+  padding: 25px 100px;
+  border-radius: 0.5em;
+  font-weight: 900;
+}
+@media (max-width: 1025px) {
+  .carac-content {
+    flex-direction: column;
+  }
+  .ToolsFlex {
+    width: 90%;
+    justify-content: center;
+    flex-wrap: nowrap;
+  }
+  .carac-space-title {
+    font-size: 15px;
+    padding: 20px 0px;
+    text-align: center;
+  }
+  .carac-button button {
+    padding: 25px 20px;
+    border-radius: 0.5em;
+    font-weight: 900;
+  }
+}

@@ -1,0 +1,42 @@
+.work-description {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
+}
+.work-description h1 {
+  font-size: 60px;
+  font-weight: 600;
+}
+.work-description p {
+  font-size: 20px;
+  margin: 20px 0px;
+}
+.work-cards {
+  width: 100%;
+}
+.work-cards .card {
+  height: 400px;
+  width: 20%;
+
+  padding: 45px 70px;
+  margin: 20px 10px;
+}
+
+@media (max-width: 1025px) {
+  .work-description h1 {
+    font-size: 30px;
+    font-weight: 600;
+  }
+  .work-description p {
+    font-size: 15px;
+    margin: 20px 0px;
+  }
+  .work-cards .card {
+    height: fit-content;
+    width: 70%;
+
+    padding: 20px 30px;
+    margin: 20px 0px;
+  }
+}
