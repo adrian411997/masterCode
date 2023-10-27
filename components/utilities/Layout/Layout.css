@@ -11,6 +11,9 @@
   align-items: center;
   flex-direction: column;
 }
+.flex {
+  flex-direction: row;
+}
 .gradient {
   background: rgb(8, 24, 40);
   background: linear-gradient(
@@ -37,4 +40,14 @@
     align-items: center;
     flex-direction: column;
   }
+}
+.border-up {
+  border-top-left-radius: 5em;
+  border-top-right-radius: 5em;
+}
+.notGradient {
+  background-color: rgb(9, 9, 24);
+}
+.bewteen {
+  justify-content: space-between;
 }
