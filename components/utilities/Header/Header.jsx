@@ -51,19 +51,16 @@ const Header = () => {
           <nav>
             <ul>
               <li>
-                <a href="">Inicio</a>
+                <a href="/">Inicio</a>
               </li>
               <li>
-                <a href="">Servicios</a>
+                <a href="/servicios">Servicios</a>
               </li>
               <li>
-                <a href="">Proyectos</a>
+                <a href="/about">Acerca de Nosotros</a>
               </li>
               <li>
-                <a href="">Acerca de Nosotros</a>
-              </li>
-              <li>
-                <a href="">Contacto</a>
+                <a href="/contacto">Contacto</a>
               </li>
               <li className="button-contact">
                 <a href="">¡Hablemos!</a>
