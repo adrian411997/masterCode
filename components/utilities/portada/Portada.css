@@ -1,0 +1,71 @@
+.portadaContent {
+  height: 90vh;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  border-bottom-left-radius: 5em;
+  border-bottom-right-radius: 5em;
+}
+.servicio {
+  background-image: url("https://res.cloudinary.com/dni5cjwpu/image/upload/v1698415407/01_dti4nj.jpg");
+}
+.about {
+  background-image: url("https://res.cloudinary.com/dni5cjwpu/image/upload/v1698425864/04_z50ug1.jpg");
+}
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(
+    11,
+    17,
+    35,
+    0.9
+  ); /* Color de fondo semitransparente (en este caso, negro con 50% de opacidad) */
+  z-index: 1; /* Asegura que la capa esté por encima de la imagen de fondo */
+  border-bottom-left-radius: 5em;
+  border-bottom-right-radius: 5em;
+}
+
+.portadaContainer {
+  width: 60%;
+  display: flex;
+  justify-content: center;
+  z-index: 1;
+  display: flex;
+  justify-self: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+}
+
+.portadaDiv {
+  width: 100%;
+}
+.portadaContainer > div {
+  padding: 20px 0px;
+}
+.uptitleText {
+  display: flex; /* Asegúrate de que el texto esté en línea para que la línea esté al lado */
+  align-items: center;
+}
+
+.uptitleText::after {
+  content: "";
+  display: inline-block; /* Establece el seudoelemento en línea */
+  width: 100px; /* Ancho de la línea */
+  height: 2px;
+  background: rgb(120, 40, 232); /* Color de la línea */
+  margin-left: 10px; /* Espacio entre el texto y la línea */
+}
+.linea {
+  height: 100%;
+  background-color: black;
+}
