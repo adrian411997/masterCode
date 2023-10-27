@@ -1,3 +1,10 @@
+export const links = [
+  { name: "Inicio", href: "/" },
+  { name: "Servicios", href: "/servicios" },
+  { name: "Acerca de nosotros", href: "/about" },
+  { name: "Contacto", href: "/contacto" },
+];
+
 export const data = [
   {
     image:

@@ -1,0 +1,51 @@
+.words-action {
+  padding-top: 100px;
+  width: 60%;
+}
+.words-action > div {
+  padding-bottom: 30px;
+}
+.words-action .words-title {
+  width: 50%;
+}
+.words-action .words-title h2 {
+  color: rgb(120, 40, 232);
+  font-size: 30px;
+}
+.words-description {
+  width: 50%;
+  color: white;
+  line-height: 2;
+}
+.words-button button {
+  padding: 20px 40px;
+  color: white;
+  background-color: rgb(120, 40, 232);
+  border-radius: 10px;
+  border: 1px solid rgb(120, 40, 232);
+}
+.footer-title {
+  font-size: 20px;
+  color: rgb(120, 40, 232);
+}
+.footer-contact {
+  width: 40%;
+}
+.footer-links-contact {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-links ul {
+  list-style: none;
+}
+.footer-links ul li {
+  margin: 25px 0px;
+}
+.footer-links ul li a {
+  text-decoration: none;
+  color: white;
+}
+.footer-info-title {
+  font-size: 20px;
+  color: rgb(120, 40, 232);
+}
