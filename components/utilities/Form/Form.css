@@ -1,3 +1,7 @@
+.form {
+  width: 50%;
+}
+
 .form form {
   display: flex;
   flex-direction: column;
@@ -101,8 +105,11 @@ textarea:focus {
   color: rgb(44, 146, 193);
   transition: 0.2s;
 }
-@media (max-width: 450px) {
+@media (max-width: 1025px) {
   .contact-content {
     width: 90%;
+  }
+  .form {
+    width: 100%;
   }
 }

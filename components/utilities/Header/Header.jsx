@@ -62,6 +62,9 @@ const Header = () => {
               <li>
                 <a href="/contacto">Contacto</a>
               </li>
+              <li>
+                <a href="/trabajos">Nuestros trabajos</a>
+              </li>
               <li className="button-contact">
                 <a href="">¡Hablemos!</a>
               </li>

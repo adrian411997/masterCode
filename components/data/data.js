@@ -87,34 +87,50 @@ export const workAspects = [
   },
   {
     image:
-      "https://res.cloudinary.com/dni5cjwpu/image/upload/v1698330186/rocket-512_eemyuy.png",
-    title: "Págnas web",
+      "https://res.cloudinary.com/dni5cjwpu/image/upload/v1699923096/shopping-bag_wkc2wb.png",
+    title: "Tiendas virtuales",
     description:
-      "Creamos páginas web que reflejan lo mejor de tu marca cuidando cada detalle de diseño y estética. Tu cara digital ideal.						",
+      "Gestione sus proyectos digitales con herramientas líderes como WordPress. Le damos las soluciones ideales de comercio electrónico, blogs y CMS.",
     link: "/servicios/pagina-web",
   },
   {
     image:
-      "https://res.cloudinary.com/dni5cjwpu/image/upload/v1698330186/rocket-512_eemyuy.png",
-    title: "Págnas web",
+      "https://res.cloudinary.com/dni5cjwpu/image/upload/v1699923397/icons8-visual-studio-code-240_akpql6.png",
+    title: "Desarollo a la medida ",
     description:
-      "Creamos páginas web que reflejan lo mejor de tu marca cuidando cada detalle de diseño y estética. Tu cara digital ideal.						",
+      "	Resolvemos sus necesidades empresariales con soluciones tecnológicas a medida. Integramos procesos, automatizamos tareas y mejoramos controles.",
     link: "/servicios/pagina-web",
   },
   {
     image:
-      "https://res.cloudinary.com/dni5cjwpu/image/upload/v1698330186/rocket-512_eemyuy.png",
-    title: "Págnas web",
+      "https://res.cloudinary.com/dni5cjwpu/image/upload/v1699923711/seguridad-de-la-base-de-datos_zsinw3.png",
+    title: "Infraestructura TI Back-End",
     description:
-      "Creamos páginas web que reflejan lo mejor de tu marca cuidando cada detalle de diseño y estética. Tu cara digital ideal.						",
+      "Desarrollamos soluciones back-end óptimas mediante metodologías ágiles y gestión moderna de productos. Personalizamos para máxima eficacia.	",
     link: "/servicios/pagina-web",
   },
   {
     image:
-      "https://res.cloudinary.com/dni5cjwpu/image/upload/v1698330186/rocket-512_eemyuy.png",
-    title: "Págnas web",
+      "https://res.cloudinary.com/dni5cjwpu/image/upload/v1699924349/programming_xqsywl.png",
+    title: "Diseño UX/UI",
     description:
-      "Creamos páginas web que reflejan lo mejor de tu marca cuidando cada detalle de diseño y estética. Tu cara digital ideal.						",
+      "Combinamos funcionalidad demandada, diseño intuitivo y experiencia de uso perfecta en aplicaciones a medida. Nuestros expertos en UI/UX diseñan la solución ideal para su negocio.",
+    link: "/servicios/pagina-web",
+  },
+  {
+    image:
+      "https://res.cloudinary.com/dni5cjwpu/image/upload/v1699924740/pngwing.com_1_tjomgf.png",
+    title: "Seguridad Informática",
+    description:
+      "Nuestro equipo de expertos en ciberseguridad simula ataques reales en tus sistemas para identificar debilidades y proponer soluciones.",
+    link: "/servicios/pagina-web",
+  },
+  {
+    image:
+      "https://res.cloudinary.com/dni5cjwpu/image/upload/v1699924910/desarrollo-de-aplicaciones_doppfp.png",
+    title: "desarrollo de aplicaciones móviles ",
+    description:
+      "Creamos la app movil totalmente personalizada segun las necesidades de su proyecto.",
     link: "/servicios/pagina-web",
   },
 ];
