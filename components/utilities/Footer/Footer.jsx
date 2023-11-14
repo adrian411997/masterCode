@@ -13,12 +13,12 @@ const Footer = () => {
     >
       <div className="words-action">
         <div className="words-title">
-          <h2>Pongamos en marcha tu proyecto</h2>
+          <h2>Nos encantaría saber de tu negocio</h2>
         </div>
         <div className="words-description">
           <p>
-            Estamos encantados de conocerte y trabajar contigo. Hagamos una
-            llamada, hablemos de tu proyecto y empeceos a trabajar juntos
+            Te invitamos a tener una reunión con nosotros para hablar mas en
+            detalle sobre tu negocio o proyecto y empezar a trabajar juntos.
           </p>
         </div>
         <div className="words-button">
@@ -44,6 +44,10 @@ const Footer = () => {
           <div className="footer-info">
             <div className="footer-info-title">
               <h4>Informacion de contacto</h4>
+            </div>
+            <div className="first-contact">
+              <h4>Salta - Argentina</h4>
+              <p>fdsfdsfds@fdsfsdfs.com</p>
             </div>
           </div>
         </div>

@@ -4,7 +4,7 @@ import Form from "@/components/utilities/Form/Form";
 
 const Contac = () => {
   return (
-    <>
+    <div className="contact">
       <div className="action-call">
         <div className="action-titñe">
           <h1> ¿Estás atascado con un proyecto o te cuesta mucho?</h1>
@@ -12,7 +12,7 @@ const Contac = () => {
         </div>
       </div>
       <Form />
-    </>
+    </div>
   );
 };
 

@@ -1,6 +1,7 @@
 .words-action {
-  padding-top: 100px;
   width: 60%;
+  display: flex;
+  flex-direction: column;
 }
 .words-action > div {
   padding-bottom: 30px;
@@ -30,6 +31,8 @@
 }
 .footer-contact {
   width: 40%;
+  display: flex;
+  flex-direction: column;
 }
 .footer-links-contact {
   display: flex;
@@ -48,4 +51,38 @@
 .footer-info-title {
   font-size: 20px;
   color: rgb(120, 40, 232);
+}
+.first-contact {
+  padding: 20px 0;
+}
+.first-contact h4 {
+  font-weight: 1000;
+  color: white;
+}
+.first-contact p {
+  color: white;
+  padding: 10px 0px;
+}
+.footer-copy {
+  color: white;
+}
+.footer-copy p {
+  padding: 20px 0px;
+}
+@media (max-width: 1025px) {
+  .words-action {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .words-action .words-title,
+  .words-action .words-description {
+    width: 60%;
+  }
+
+  .footer-contact {
+    width: 60%;
+    margin-top: 50px;
+  }
 }

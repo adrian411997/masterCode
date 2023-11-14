@@ -1,7 +1,13 @@
+.contact {
+  display: flex;
+}
 .contact-space {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+.action-call {
+  width: 50%;
 }
 .contact-container {
   width: 70%;
@@ -16,5 +22,13 @@
   .action-call {
     text-align: center;
     margin-bottom: 30px;
+  }
+  .contact {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .action-call {
+    width: 100%;
   }
 }
