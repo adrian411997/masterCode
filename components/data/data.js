@@ -98,7 +98,7 @@ export const tools1 = [
 export const workAspects = [
   {
     image:
-      "https://res.cloudinary.com/dni5cjwpu/image/upload/v1698330108/trophy-512_tonyos.png ",
+      "https://res.cloudinary.com/dni5cjwpu/image/upload/v1700521102/outsource_2_ihboiz.png",
     title: "Outsorce en Desarrollo",
     description:
       "Acelere su proyecto digital con nuestro equipo experto. Ahorre tiempo y dinero subcontratando desarrollo web de calidad.											",
@@ -106,7 +106,7 @@ export const workAspects = [
   },
   {
     image:
-      "https://res.cloudinary.com/dni5cjwpu/image/upload/v1698330186/rocket-512_eemyuy.png",
+      "https://res.cloudinary.com/dni5cjwpu/image/upload/v1700521102/react_t9gadx.png",
     title: "Págnas web",
     description:
       "Creamos páginas web que reflejan lo mejor de tu marca cuidando cada detalle de diseño y estética. Tu cara digital ideal.						",
@@ -114,7 +114,7 @@ export const workAspects = [
   },
   {
     image:
-      "https://res.cloudinary.com/dni5cjwpu/image/upload/v1699923096/shopping-bag_wkc2wb.png",
+      "https://res.cloudinary.com/dni5cjwpu/image/upload/v1700521101/carro_ildoq8.png",
     title: "Tiendas virtuales",
     description:
       "Gestione sus proyectos digitales con herramientas líderes como WordPress. Le damos las soluciones ideales de comercio electrónico, blogs y CMS.",
@@ -122,7 +122,7 @@ export const workAspects = [
   },
   {
     image:
-      "https://res.cloudinary.com/dni5cjwpu/image/upload/v1699923397/icons8-visual-studio-code-240_akpql6.png",
+      "https://res.cloudinary.com/dni5cjwpu/image/upload/v1700521103/visual_2_h3mv8f.png",
     title: "Desarollo a la medida ",
     description:
       "	Resolvemos sus necesidades empresariales con soluciones tecnológicas a medida. Integramos procesos, automatizamos tareas y mejoramos controles.",
@@ -130,7 +130,7 @@ export const workAspects = [
   },
   {
     image:
-      "https://res.cloudinary.com/dni5cjwpu/image/upload/v1699923711/seguridad-de-la-base-de-datos_zsinw3.png",
+      "https://res.cloudinary.com/dni5cjwpu/image/upload/v1700521102/infraestructura_hpvlj7.png",
     title: "Infraestructura TI Back-End",
     description:
       "Desarrollamos soluciones back-end óptimas mediante metodologías ágiles y gestión moderna de productos. Personalizamos para máxima eficacia.	",
@@ -138,7 +138,7 @@ export const workAspects = [
   },
   {
     image:
-      "https://res.cloudinary.com/dni5cjwpu/image/upload/v1699924349/programming_xqsywl.png",
+      "https://res.cloudinary.com/dni5cjwpu/image/upload/v1700521102/dise_2_zrkbio.png",
     title: "Diseño UX/UI",
     description:
       "Combinamos funcionalidad demandada, diseño intuitivo y experiencia de uso perfecta en aplicaciones a medida. Nuestros expertos en UI/UX diseñan la solución ideal para su negocio.",
@@ -146,7 +146,7 @@ export const workAspects = [
   },
   {
     image:
-      "https://res.cloudinary.com/dni5cjwpu/image/upload/v1699924740/pngwing.com_1_tjomgf.png",
+      "https://res.cloudinary.com/dni5cjwpu/image/upload/v1700521102/segu_1_w2prqb.png",
     title: "Seguridad Informática",
     description:
       "Nuestro equipo de expertos en ciberseguridad simula ataques reales en tus sistemas para identificar debilidades y proponer soluciones.",
@@ -154,10 +154,18 @@ export const workAspects = [
   },
   {
     image:
-      "https://res.cloudinary.com/dni5cjwpu/image/upload/v1699924910/desarrollo-de-aplicaciones_doppfp.png",
+      "https://res.cloudinary.com/dni5cjwpu/image/upload/v1700521101/app1_brt9xb.png",
     title: "Desarrollo de aplicaciones móviles ",
     description:
       "Creamos la app movil totalmente personalizada segun las necesidades de su proyecto.",
+    time: "500",
+  },
+  {
+    image:
+      "https://res.cloudinary.com/dni5cjwpu/image/upload/v1700521101/aseso_2_jcvwun.png",
+    title: "Asesoramiento",
+    description:
+      "Ofrecemos un servicio de asesoramiento que va más allá de la simple orientación, acompañándote de principio a fin en tu emprendimiento.",
     time: "500",
   },
 ];

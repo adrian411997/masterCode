@@ -45,9 +45,14 @@
   background-color: #181828 !important;
   color: white;
   height: 300px;
-  margin: 30px 0px;
+  margin: 50px 0px;
 
   width: 30%;
+}
+@media (max-width: 1629px) {
+  .card {
+    height: fit-content !important;
+  }
 }
 @media (max-width: 1025px) {
   .card-container {
