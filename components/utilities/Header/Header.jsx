@@ -25,7 +25,14 @@ const Header = () => {
     <header className={`${background}`}>
       <div className="header-space">
         <div className="logo">
-          <Image src={icono} alt="icono" width={50} height={50} />
+          <a href="/">
+            <Image
+              src="https://res.cloudinary.com/dni5cjwpu/image/upload/v1700177088/400_1_llrza7.png"
+              alt="icono"
+              width={60}
+              height={60}
+            />
+          </a>
         </div>
         <div className="menu-icon">
           <svg
@@ -61,9 +68,6 @@ const Header = () => {
               </li>
               <li>
                 <a href="/contacto">Contacto</a>
-              </li>
-              <li>
-                <a href="/trabajos">Nuestros trabajos</a>
               </li>
               <li className="button-contact">
                 <a href="">¡Hablemos!</a>

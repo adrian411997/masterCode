@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 
 import Home from "../components/Home/Home";
@@ -7,8 +8,14 @@ import Carac from "@/components/Home/Carac/Carac";
 import Work from "@/components/Home/Work/Work";
 import Contac from "@/components/Home/Contact/Contac";
 import Layout from "@/components/utilities/Layout/Layout";
+import AOS from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
 
 const IndexPage = () => {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <>
       <Layout

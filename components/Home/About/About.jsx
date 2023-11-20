@@ -17,7 +17,7 @@ const About = () => {
           son principios básicos que seguimos en nuestro trabajo.
         </p>
       </div>
-      <Cards dataInfo={data} className={"about-cards"} />
+      <Cards dataInfo={data} className={"about-cards"} fadeup={true} />
     </>
   );
 };
