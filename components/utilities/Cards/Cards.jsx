@@ -2,11 +2,16 @@ import React from "react";
 import "./Cards.css";
 import Image from "next/image";
 
-const Cards = ({ dataInfo, className }) => {
+const Cards = ({ dataInfo, className, flip, fadeup }) => {
   return (
     <div className={`card-container ${className}`}>
       {dataInfo.map((data, index) => (
-        <div key={index} className="card">
+        <div
+          data-aos={`${fadeup ? "fade-up" : "flip-left"}`}
+          data-aos-duration={data.time}
+          key={index}
+          className="card"
+        >
           <div>
             <Image src={data.image} width={50} height={50} alt={data.title} />
           </div>

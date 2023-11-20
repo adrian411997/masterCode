@@ -17,6 +17,25 @@ header {
 .logo {
   width: 10%;
 }
+.logo:hover img {
+  animation: jump 1s ease-in-out infinite;
+}
+@keyframes jump {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-20px);
+  }
+  60% {
+    transform: translateY(-10px);
+  }
+}
+
 .header-space {
   width: 60%;
   display: flex;
@@ -46,11 +65,21 @@ header {
 .links nav ul li a {
   text-decoration: none;
   color: white;
+  font-size: 15px;
+}
+.links nav ul li:not(:last-child):hover a {
+  color: rgb(37, 193, 193);
 }
 .button-contact a {
   padding: 10px 50px;
-  background-color: rgb(120, 40, 232);
+  background-color: rgb(37, 193, 193);
   border-radius: 5px;
+  border: 1px solid rgb(37, 193, 193);
+  transition: 0.3s ease-in-out;
+}
+.button-contact:hover a {
+  color: rgb(37, 193, 193);
+  background-color: white;
 }
 .notInTop {
   background-color: #181a1a;

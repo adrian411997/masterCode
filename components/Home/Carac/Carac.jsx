@@ -12,25 +12,6 @@ const Carac = () => {
       </div>
       <div className="carac-content">
         <Cards dataInfo={tools1} className={"ToolsFlex"} />
-        <div className="carac-girl">
-          <Image
-            className="back"
-            alt=""
-            width={300}
-            height={415}
-            src="https://res.cloudinary.com/dni5cjwpu/image/upload/v1698331974/icon-bg.01_suxzfh.png"
-          />
-          <Image
-            height={415}
-            width={300}
-            className="prettyGirl"
-            alt="prettyGirl"
-            src={
-              "https://res.cloudinary.com/dni5cjwpu/image/upload/v1698331754/mujer_uw1hup.png"
-            }
-          />
-        </div>
-        <Cards dataInfo={tools1} className={"ToolsFlex"} />
       </div>
 
       <div className="carac-button">
