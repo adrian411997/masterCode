@@ -5,6 +5,7 @@
   flex-wrap: wrap;
 }
 .card {
+  text-align: justify;
   width: 20%;
   border-radius: 0.5em;
   border: 2px solid rgb(238, 238, 238);

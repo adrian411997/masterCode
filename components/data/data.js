@@ -64,7 +64,7 @@ export const tools = [
 export const tools1 = [
   {
     image:
-      "https://res.cloudinary.com/dni5cjwpu/image/upload/v1698330108/trophy-512_tonyos.png ",
+      "https://res.cloudinary.com/dni5cjwpu/image/upload/v1700525043/ex_2_b78uxx.png",
     title: "Experiencia",
     description:
       "Acompañamos a startups desde cero aportando software de nivel mundial y experiencia para impulsar su crecimiento de forma integral.					",
@@ -72,26 +72,26 @@ export const tools1 = [
   },
   {
     image:
-      "https://res.cloudinary.com/dni5cjwpu/image/upload/v1698330186/rocket-512_eemyuy.png",
-    title: "Innovación",
+      "https://res.cloudinary.com/dni5cjwpu/image/upload/v1700525043/co_1_ltl8ky.png",
+    title: "Impulsa",
     description:
-      "Agilizamos su desarrollo digital para superar a la competencia con proyectos de e-commerce, web, LMS, CMS y diseño UI/UX.		",
+      "Ayudamos a construir con éxito proyectos de marcas globales. Confíe en nuestra experiencia para impulsar el suyo.",
     time: "700",
   },
   {
     image:
-      "https://res.cloudinary.com/dni5cjwpu/image/upload/v1698330186/rocket-512_eemyuy.png",
+      "https://res.cloudinary.com/dni5cjwpu/image/upload/v1700525044/tro_1_lpergo.png",
     title: "Innovación",
     description:
-      "Agilizamos su desarrollo digital para superar a la competencia con proyectos de e-commerce, web, LMS, CMS y diseño UI/UX.		",
+      "Agilizamos su desarrollo digital para superar a la competencia con proyectos de e-commerce, web, LMS, CMS y diseño UI/UX.",
     time: "900",
   },
   {
     image:
-      "https://res.cloudinary.com/dni5cjwpu/image/upload/v1698330186/rocket-512_eemyuy.png",
-    title: "Innovación",
+      "https://res.cloudinary.com/dni5cjwpu/image/upload/v1700525044/man_2_xzgjw8.png",
+    title: "Confianza",
     description:
-      "Agilizamos su desarrollo digital para superar a la competencia con proyectos de e-commerce, web, LMS, CMS y diseño UI/UX.		",
+      "Aportamos un equipo adaptable que entrega innovación, agilidad y conocimiento para impulsar el crecimiento de su negocio. Somos socios de confianza.",
     time: "1100",
   },
 ];
