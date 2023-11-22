@@ -35,9 +35,7 @@ const IndexPage = () => {
       <Layout>
         <Work />
       </Layout>
-      <Layout>
-        <Contac />
-      </Layout>
+      <Contac />
     </>
   );
 };

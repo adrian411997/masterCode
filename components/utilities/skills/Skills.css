@@ -1,37 +1,34 @@
-.skills-space {
+.title {
+  text-align: center;
+}
+.marquee {
+  width: 100%;
+  overflow: hidden;
+  margin: 100px 0px;
+}
+
+.marquee li {
+  font-size: 50px;
+}
+
+.marquee_content {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  padding: 20px 0px;
-  flex-direction: column;
+  list-style: none;
+  justify-content: space-around;
+  animation: scrolling 10s linear infinite;
 }
-.skills-container {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  flex-wrap: wrap;
-  width: 60%;
+
+.marquee_item {
+  flex-shrink: 0;
 }
-.skills-logo {
-  width: 30%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: 10px 0px;
-}
-.skills-button button {
-  padding: 30px 50px;
-  border: 1px solid rgb(119, 40, 230);
-  color: white;
-  border-radius: 100px;
-  background-color: rgb(119, 40, 230);
-  font-size: 20px;
-  cursor: pointer;
-  transition: 0.3s ease-in-out;
-}
-.skills-button button:hover {
-  border: 1px solid black;
-  background-color: black;
+
+@keyframes scrolling {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
 }
 @media (max-width: 1025px) {
   .skills-container {

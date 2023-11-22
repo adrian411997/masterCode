@@ -41,24 +41,36 @@ export const data = [
 
 export const tools = [
   {
-    url: "https://res.cloudinary.com/dni5cjwpu/image/upload/v1698263390/react_zoi75h.png",
+    url: "https://res.cloudinary.com/dni5cjwpu/image/upload/v1700613881/logooo_900_u8qhch.png",
     time: "500",
   },
   {
-    url: "https://res.cloudinary.com/dni5cjwpu/image/upload/v1698263389/node-js_ahikns.png",
+    url: "https://res.cloudinary.com/dni5cjwpu/image/upload/v1700613881/logoo_900_qxwfd7.png",
     time: "700",
   },
   {
-    url: "https://res.cloudinary.com/dni5cjwpu/image/upload/v1698263387/nextjs-icon_ssx4u1.png",
+    url: "https://res.cloudinary.com/dni5cjwpu/image/upload/v1700613881/logo_900_pkmagk.png",
     time: "900",
   },
   {
-    url: "https://res.cloudinary.com/dni5cjwpu/image/upload/v1698263387/icons8-expresar-js-500_ikgohm.png",
+    url: "https://res.cloudinary.com/dni5cjwpu/image/upload/v1700613881/logoooo_900_jyhizk.png",
     time: "900",
   },
   {
-    url: "https://res.cloudinary.com/dni5cjwpu/image/upload/v1698263388/postgresql_br4fud.png",
-    time: "1100",
+    url: "https://res.cloudinary.com/dni5cjwpu/image/upload/v1700613881/logooo_900_u8qhch.png",
+    time: "500",
+  },
+  {
+    url: "https://res.cloudinary.com/dni5cjwpu/image/upload/v1700613881/logoo_900_qxwfd7.png",
+    time: "700",
+  },
+  {
+    url: "https://res.cloudinary.com/dni5cjwpu/image/upload/v1700613881/logo_900_pkmagk.png",
+    time: "900",
+  },
+  {
+    url: "https://res.cloudinary.com/dni5cjwpu/image/upload/v1700613881/logoooo_900_jyhizk.png",
+    time: "900",
   },
 ];
 export const tools1 = [
