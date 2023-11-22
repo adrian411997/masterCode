@@ -38,17 +38,17 @@
 .contactanos-div-select button {
   padding: 20px;
   margin-left: 10px;
-  border: none;
+  border: 1px solid rgb(40, 167, 69);
   border-radius: 0.4em;
   cursor: pointer;
   background-color: rgb(40, 167, 69);
   color: white;
+  transition: 0.2s ease-in-out;
 }
 .contactanos-div-select button:hover {
   background-color: white;
   border: 1px solid rgb(40, 167, 69);
   color: rgb(40, 167, 69);
-  transition: 0.2s ease-in-out;
 }
 .contactanos-div-input button:hover {
   background-color: white;
@@ -86,11 +86,12 @@ textarea:focus {
 }
 .button-form-contact {
   width: 97%;
-  border: none;
+  border: 1px solid rgb(44, 146, 193);
   border-radius: 0.4em;
   padding: 20px 0px;
   font-size: 15px;
   background-color: rgb(44, 146, 193);
+  transition: 0.2s;
 }
 
 ::placeholder {
@@ -103,7 +104,6 @@ textarea:focus {
   background-color: white;
   border: 1px solid rgb(44, 146, 193);
   color: rgb(44, 146, 193);
-  transition: 0.2s;
 }
 @media (max-width: 1025px) {
   .contact-content {
