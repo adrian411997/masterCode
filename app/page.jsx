@@ -28,7 +28,7 @@ const IndexPage = () => {
       <Layout>
         <About />
       </Layout>{" "}
-      <Skills />
+    
       <Layout gradient={"gradient"} rounded={"borderAll"}>
         <Carac />
       </Layout>
@@ -36,6 +36,7 @@ const IndexPage = () => {
         <Work />
       </Layout>
       <Contac />
+      <Skills />
     </>
   );
 };

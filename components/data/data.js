@@ -56,22 +56,7 @@ export const tools = [
     url: "https://res.cloudinary.com/dni5cjwpu/image/upload/v1700613881/logoooo_900_jyhizk.png",
     time: "900",
   },
-  {
-    url: "https://res.cloudinary.com/dni5cjwpu/image/upload/v1700613881/logooo_900_u8qhch.png",
-    time: "500",
-  },
-  {
-    url: "https://res.cloudinary.com/dni5cjwpu/image/upload/v1700613881/logoo_900_qxwfd7.png",
-    time: "700",
-  },
-  {
-    url: "https://res.cloudinary.com/dni5cjwpu/image/upload/v1700613881/logo_900_pkmagk.png",
-    time: "900",
-  },
-  {
-    url: "https://res.cloudinary.com/dni5cjwpu/image/upload/v1700613881/logoooo_900_jyhizk.png",
-    time: "900",
-  },
+
 ];
 export const tools1 = [
   {

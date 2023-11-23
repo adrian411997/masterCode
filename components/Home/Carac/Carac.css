@@ -8,9 +8,10 @@
 
 .carac-content {
   display: flex;
-  width: 100%;
+  width:90%;
   justify-content: center;
   align-items: center;
+  
 }
 
 .carac-button {
@@ -20,7 +21,15 @@
   padding: 25px 100px;
   border-radius: 0.5em;
   font-weight: 900;
+  border:1px solid white;cursor: pointer;
+  transition: .3s ease-in-out;
 }
+
+.carac-button button:hover{
+  background-color: black;
+  color:white;
+}
+
 @media (max-width: 1025px) {
   .carac-content {
     flex-direction: column;

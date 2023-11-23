@@ -14,22 +14,15 @@
 .marquee_content {
   display: flex;
   list-style: none;
-  justify-content: space-around;
-  animation: scrolling 10s linear infinite;
+  justify-content: space-evenly;
+ 
 }
 
 .marquee_item {
   flex-shrink: 0;
 }
 
-@keyframes scrolling {
-  0% {
-    transform: translateX(0);
-  }
-  100% {
-    transform: translateX(-100%);
-  }
-}
+
 @media (max-width: 1025px) {
   .skills-container {
     width: 90%;
