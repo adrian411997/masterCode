@@ -1,7 +1,6 @@
 .form {
   width: 50%;
 }
-
 .form form {
   display: flex;
   flex-direction: column;
@@ -9,22 +8,22 @@
   justify-content: center;
 }
 .input {
-  width: 95%;
-  padding: 20px 10px;
+  width: 90%;
+  padding: 8px;
   margin: 10px 0px;
-  border: none;
+  border: 0.5px solid rgb(37, 193, 193);
   font-size: 15px;
-  border-radius: 0.4em;
-  background-color: rgb(243, 243, 243);
+  background-color: transparent;
+  color: white;
 }
 .contactanos-div-input {
   width: 100%;
 }
 .contactanos-div-input input {
-  width: 86%;
+  width: 95%;
 }
 .contactanos-div-input button {
-  padding: 20px;
+  padding: 10px;
   margin-left: 10px;
   border: none;
   border-radius: 0.4em;
@@ -34,6 +33,20 @@
 }
 .contactanos-div-select {
   width: 100%;
+}
+
+.selectKnowsUs {
+  border: 1px solid rgb(37, 193, 193);
+  background-color: transparent;
+  width: 100%;
+  padding: 20px 10px;
+  width: 93%;
+  color: white;
+}
+.form-display-flex {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
 }
 .contactanos-div-select button {
   padding: 20px;
@@ -57,22 +70,25 @@
   transition: 0.2s ease-in-out;
 }
 select {
-  padding: 20px 10px;
-  width: 84%;
   border-radius: 0.4em;
   font-size: 15px;
   margin: 10px 0px;
-  background-color: rgb(243, 243, 243);
+
   border: none;
 }
+.selectKnowsUs option {
+  background: black;
+  color: white;
+}
 textarea {
-  width: 95%;
-  border-radius: 0.4em;
+  width: 90%;
+
   height: 150px;
   padding: 10px 10px;
-  border: none;
+  border: 1px solid rgb(37, 193, 193);
   margin: 10px 0px;
-  background-color: rgb(243, 243, 243);
+  color: white;
+  background-color: transparent;
   resize: none;
 }
 textarea:focus {
@@ -85,17 +101,18 @@ textarea:focus {
   width: 100%;
 }
 .button-form-contact {
-  width: 97%;
-  border: 1px solid rgb(44, 146, 193);
+  width: 100%;
+  border: 1px solid rgb(37, 193, 193);
   border-radius: 0.4em;
   padding: 20px 0px;
-  font-size: 15px;
-  background-color: rgb(44, 146, 193);
+  font-size: 20px;
+  background-color: rgb(37, 193, 193);
   transition: 0.2s;
+  cursor: pointer;
 }
 
 ::placeholder {
-  color: #858383;
+  color: white;
   font-size: 1.1em;
   font-style: italic;
 }

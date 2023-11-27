@@ -6,10 +6,9 @@ const Form = () => {
   const [form, setForm] = useState({
     nombre: "",
     email: "",
-    web: "",
-    pais: "",
-    text: "",
     numero: "",
+    text: "",
+    know: "",
   });
   const [hideInput, setHideInput] = useState(false);
   const showInput = () => {
@@ -43,53 +42,32 @@ const Form = () => {
           placeholder="Tu email"
           type={"email"}
         />
+
         <input
           onChange={handleOnChange}
-          className="input"
+          className="input phoneNumber"
           name="numero"
-          placeholder="Tu numero"
+          placeholder="Telefono"
           type={"number"}
         />
-        <input
-          onChange={handleOnChange}
-          className="input"
-          name="web"
-          placeholder="Tu Web"
-          type={"url"}
-        />
-        <span>
-          Si su pais no se encuentra en la lista, oprima Ingresar pais
-        </span>
-        {hideInput ? (
-          <div className="contactanos-div-input">
-            <input
-              onChange={handleOnChange}
-              className="input"
-              name="pais"
-              placeholder="Introduzca su pais"
-            />
-            <button type={"button"} onClick={showInput}>
-              Atras
-            </button>
-          </div>
-        ) : (
-          <div className="contactanos-div-select">
-            <select onChange={handleOnChange} name="pais">
-              <option value="">Seleccione su pais</option>
-              <option value="Argentina">Argentina</option>
-              <option value="España">España</option>
-              <option value="Estados Unidos">Estados Unidos</option>
-              <option value="Chile">Chile</option>
-            </select>
-            <button onClick={showInput} type={"button"}>
-              Ingresar pais
-            </button>
-          </div>
-        )}
+        <select name="know" onChange={handleOnChange} className="selectKnowsUs">
+          <option selected value={""}>
+            ¿Cómo nos conoció?
+          </option>
+          <option value="Busqueda por Internet">Busqueda por Internet</option>
+          <option value="Referencia">Referencia</option>
+
+          <option value="Redes sociales">Redes sociales</option>
+          <option value="Evento">Evento</option>
+          <option value="Anuncio">Anuncio</option>
+          <option value="Por conocidos">Por conocidos</option>
+          <option value="Otros...">Otros...</option>
+        </select>
+
         <textarea
           onChange={handleOnChange}
           name="text"
-          placeholder="Cuéntanos como te podemos ayudar"
+          placeholder="Describenos tu proyecto"
         />
         <div className="div-button">
           <button
@@ -99,8 +77,7 @@ const Form = () => {
             disabled={
               form.nombre === "" ||
               form.email === "" ||
-              form.web === "" ||
-              form.pais === "" ||
+              form.know === "" ||
               form.text === "" ||
               form.numero === ""
             }

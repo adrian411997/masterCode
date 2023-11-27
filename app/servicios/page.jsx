@@ -12,7 +12,7 @@ const Servicios = () => {
   }, []);
   const props = {
     className: "servicio",
-    text: "Somos una empresa especializada en desarrollo web a medida y servicios de externalización. Nuestro principal objetivo es crear soluciones personalizadas que se adapten a las necesidades específicas de su negocio. Contamos con un equipo de expertos en desarrollo web altamente cualificados que crearán sitios web de calidad y proporcionarán servicios de externalización fiables. Confíe en nosotros para llevar su presencia en línea al siguiente nivel. Confíe en nosotros para llevar su ecosistema digital al siguiente nivel.",
+    text: "Somos una empresa especializada en desarrollo web a la medida y servicios de externalizacion. Nuestra amplia gama de servicios se adapta a las necesidades individuales de cada uno ya que nos mantenemos actualizados con las últimas tendencias y tecnologías en desarrollo para garantizar que nuestros clientes reciban las soluciones más innovadoras y efectivas. Confíe en nosotros para llevar su presencia en línea al siguiente nivel.",
     uptitle: "SERVICIOS",
     title: "¿Qué podemos hacer por su empresa?",
   };

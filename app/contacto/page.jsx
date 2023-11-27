@@ -5,6 +5,7 @@ import Layout from "@/components/utilities/Layout/Layout";
 import Contac from "@/components/Home/Contact/Contac";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import "./page.css";
 import { useEffect } from "react";
 const Contact = () => {
   useEffect(() => {
@@ -12,15 +13,16 @@ const Contact = () => {
   }, []);
   const props = {
     className: "about",
-    text: "Contamos con expertos dispuestos a colaborar con usted desde cualquier parte del mundo. Póngase en contacto con nosotros y programe o reserve un reunión.",
+    text: "Te invitamos a que nos contactes para asi poder hablar mas a fondo sobre tu proyecto y ayudarte de la manera mas eficiente posible.",
     uptitle: "CONTACTO",
     title: "Desarrollo web a medida y emprendimiento corporativo",
   };
   return (
     <>
       <Portada data={props} />
-
+      <div className="empty"></div>
       <Contac />
+      <div className="empty"></div>
     </>
   );
 };

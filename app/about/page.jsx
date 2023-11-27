@@ -6,6 +6,7 @@ import Portada from "@/components/utilities/portada/Portada";
 import Carac from "@/components/Home/Carac/Carac";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import "./page.css";
 import { useEffect } from "react";
 const AboutPage = () => {
   useEffect(() => {
@@ -13,16 +14,18 @@ const AboutPage = () => {
   }, []);
   const props = {
     className: "about",
-    text: "En KodexNetz, somos una empresa colombiana especializada en el desarrollo de software y diseño multimedia. Llevamos 8 años en el mercado nacional e internacional. Estamos enfocados en identificar y satisfacer las necesidades de nuestros clientes, brindando una asesoría integral de la más alta calidad, lo que nos ha permitido desarrollar ideas de negocio y mantener una visión amplia para generar de la mano con cada uno de nuestros clientes, proyectos de gran envergadura.",
+    text: "En Master Code, somos una empresa de profesionales altamente especializados en el desarrollo de software y diseño multimedia. Llevamos dos años en el mercado nacional e internacional. Estamos enfocados en identificar y satisfacer las necesidades de nuestros clientes, brindando una asesoría de la mas alta calidad, lo que nos ha permitido desarrollar ideas de negocios y mantener una visión amplia para generar proyectos de gran envergadura en cada uno de nuestros clientes.",
     uptitle: "Sobre nosotros",
     title: "Creamos, desarrollamos y promovemos ideas para su empresa. ",
   };
   return (
     <>
       <Portada data={props} />
+      <div className="empty"></div>
       <Layout gradient={"gradient"} rounded={"borderAll"}>
         <Carac />
-      </Layout>
+      </Layout>{" "}
+      <div className="empty"></div>
     </>
   );
 };
