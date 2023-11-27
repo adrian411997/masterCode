@@ -52,8 +52,7 @@ const Footer = () => {
           </div>
         </div>
         <div className="footer-copy">
-          <p>© Copyright 2021 Kodexnetz All Rights Reserverd.</p>
-          <a>Politicas de privacidad</a>
+          <p>© Copyright 2023 Master Code. All Rights Reserverd.</p>
         </div>
       </div>
     </Layout>

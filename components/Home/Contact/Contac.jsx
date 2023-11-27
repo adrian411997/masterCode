@@ -7,10 +7,11 @@ const Contac = () => {
     <div className="contact-space gradient">
       <div className="contact-container">
         <div className="action-call">
-          <div className="action-titñe">
+          <div className="action-title">
             <h1> ¿Estás atascado con un proyecto o te cuesta mucho?</h1>
             <p>
-              No te preoucupes, estuvimos en tu lugar y sabemos como ayudarte
+              Te invitamos a que nos contactes para asi poder hablar mas a fondo
+              sobre tu proyecto y ayudarte de la manera mas eficiente posible.
             </p>
           </div>
         </div>
