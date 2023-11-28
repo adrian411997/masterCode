@@ -13,7 +13,7 @@
   width: 50%;
 }
 .contact-container {
-  width: 70%;
+  width: 60%;
   display: flex;
   justify-content: center;
 }
@@ -24,11 +24,24 @@
   justify-content: center;
 }
 .action-title h1 {
-  font-size: 50px;
+  font-size: 45px;
 }
 .action-title p {
   margin-top: 20px;
   line-height: 1.5;
+  font-size: 20px;
+  width: 70%;
+}
+.line-divided {
+  width: 80%;
+  margin: 20px 0px;
+  border: 3px solid rgb(65, 39, 143);
+}
+.icons {
+  margin: 10px 0px;
+}
+.icons > img {
+  margin-right: 10px;
 }
 @media (max-width: 1025px) {
   .action-call {
