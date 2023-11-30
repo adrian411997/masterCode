@@ -1,0 +1,52 @@
+.carac-space-title {
+  color: white;
+}
+
+.carac-container {
+  display: flex;
+}
+
+.carac-content {
+  display: flex;
+  width:90%;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.carac-button {
+  margin: 20px 0px;
+}
+.carac-button button {
+  padding: 25px 100px;
+  border-radius: 0.5em;
+  font-weight: 900;
+  border:1px solid white;cursor: pointer;
+  transition: .3s ease-in-out;
+}
+
+.carac-button button:hover{
+  background-color: black;
+  color:white;
+}
+
+@media (max-width: 1025px) {
+  .carac-content {
+    flex-direction: column;
+  }
+  .ToolsFlex {
+    width: 90%;
+    justify-content: center;
+    flex-wrap: nowrap;
+  }
+  .carac-space-title {
+    font-size: 15px;
+    padding: 20px 0px;
+    text-align: center;
+  }
+  .carac-button button {
+    padding: 25px 20px;
+    border-radius: 0.5em;
+    font-weight: 900;
+  }
+}

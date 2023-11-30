@@ -1,0 +1,148 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding: 20px 0px;
+  justify-content: center;
+  background-color: transparent;
+  position: fixed;
+  transition: 0.5s ease-in-out;
+  top: 0;
+  z-index: 4;
+}
+.logo {
+  width: 10%;
+}
+.logo:hover img {
+  animation: jump 1s ease-in-out infinite;
+}
+@keyframes jump {
+  0%,
+  20%,
+  50%,
+  80%,
+  100% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-20px);
+  }
+  60% {
+    transform: translateY(-10px);
+  }
+}
+
+.header-space {
+  width: 60%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.links {
+  width: 90%;
+  display: flex;
+  justify-content: right;
+  font-size: 13px;
+}
+.links nav {
+  width: 80%;
+  display: flex;
+}
+.links nav ul {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+.links nav ul li {
+  list-style: none;
+  padding: 0px 15px;
+}
+.links nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+}
+.links nav ul li:not(:last-child):hover a {
+  color: rgb(37, 193, 193);
+}
+.button-contact a {
+  padding: 10px 50px;
+  background-color: rgb(37, 193, 193);
+  border-radius: 5px;
+  border: 1px solid rgb(37, 193, 193);
+  transition: 0.3s ease-in-out;
+}
+.button-contact:hover a {
+  color: rgb(37, 193, 193);
+  background-color: white;
+}
+.notInTop {
+  background-color: #181a1a;
+  transition: 0.5s ease-in-out;
+}
+.menu-icon {
+  display: none;
+  cursor: pointer;
+  position: relative;
+  z-index: 3;
+}
+
+@media (max-width: 1025px) {
+  .menu-icon {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    width: 90%;
+  }
+  .logo {
+    width: 10%;
+  }
+  .header-space {
+    width: 80%;
+    justify-content: normal;
+  }
+  .links {
+    position: absolute;
+    right: -100%;
+    flex-direction: column;
+    width: 70%;
+    z-index: 2;
+    top: 0;
+    height: 100vh;
+
+    transition: 0.5s ease-in-out;
+  }
+  .links nav {
+    height: 100%;
+    width: 100%;
+  }
+  .links nav ul {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100%;
+  }
+  .links nav ul li {
+    margin: 20px 0px;
+  }
+  .links nav ul li:not(:last-child) {
+    margin-right: 0px;
+  }
+  .menu-icon.show {
+    display: block;
+  }
+  .show {
+    right: 0;
+    top: 0;
+    background-color: grey;
+    width: 70%;
+    height: 100vh;
+    transition: 0.5s ease-in-out;
+  }
+}

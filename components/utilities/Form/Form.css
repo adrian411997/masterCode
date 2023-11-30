@@ -1,0 +1,102 @@
+.form {
+  width: 50%;
+}
+.form-container form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.input {
+  width: 100%;
+  padding: 10px 0px;
+  margin: 10px 0px;
+  border: none;
+  border-bottom: 0.5px solid rgb(128, 63, 255);
+  font-size: 15px;
+  background-color: transparent;
+  color: white;
+}
+.contactanos-div-input {
+  width: 100%;
+}
+.contactanos-div-input input {
+  width: 95%;
+}
+.contactanos-div-input button {
+  padding: 10px;
+  margin-left: 10px;
+  border: none;
+  border-radius: 0.4em;
+  cursor: pointer;
+  background-color: rgb(200, 35, 51);
+  color: white;
+}
+.contactanos-div-select {
+  width: 100%;
+}
+.form-container {
+  width: 95%;
+}
+.form-display-flex {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+
+select {
+  border-radius: 0.4em;
+  font-size: 15px;
+  margin: 10px 0px;
+
+  border: none;
+}
+
+textarea {
+  padding: 10px;
+  width: calc(100% - 20px);
+  height: 150px;
+  border: 0.5px solid rgb(128, 63, 255);
+  margin: 10px 0px;
+  color: white;
+  background-color: transparent;
+  resize: none;
+}
+textarea:focus {
+  outline: none;
+}
+.input:focus {
+  outline: none;
+}
+.div-button {
+  width: 95%;
+  margin: 20px 0px;
+}
+.button-form-contact {
+  border: 1px solid rgb(128, 63, 255);
+  padding: 15px 30px;
+  font-size: 20px;
+  background-color: rgb(128, 63, 255);
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+::placeholder {
+  color: white;
+  font-size: 1.1em;
+  font-style: italic;
+}
+
+.button-form-contact:hover {
+  background-color: white;
+  border: 1px solid rgb(128, 63, 255);
+  color: rgb(128, 63, 255);
+}
+@media (max-width: 1025px) {
+  .contact-content {
+    width: 90%;
+  }
+  .form {
+    width: 100%;
+  }
+}

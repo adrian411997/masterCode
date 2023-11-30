@@ -1,0 +1,53 @@
+.div-space {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 50px 0px;
+}
+.div-container {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.flex {
+  flex-direction: row;
+}
+.gradient {
+  background: rgb(8, 24, 40);
+  background: linear-gradient(
+    73deg,
+    rgba(8, 24, 40, 1) 56%,
+    rgba(46, 30, 105, 1) 85%
+  );
+}
+.heightDIV {
+  height: 70vh;
+}
+.border {
+  border-bottom-left-radius: 5em;
+  border-bottom-right-radius: 5em;
+}
+.borderAll {
+  border-radius: 5em;
+}
+@media (max-width: 1025px) {
+  .div-container {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}
+.border-up {
+  border-top-left-radius: 5em;
+  border-top-right-radius: 5em;
+}
+.notGradient {
+  background-color: rgb(9, 9, 24);
+}
+.bewteen {
+  justify-content: space-between;
+}

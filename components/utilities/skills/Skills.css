@@ -1,0 +1,34 @@
+.title {
+  text-align: center;
+}
+.marquee {
+  width: 100%;
+  overflow: hidden;
+  margin: 100px 0px;
+}
+
+.marquee li {
+  font-size: 50px;
+}
+
+.marquee_content {
+  display: flex;
+  list-style: none;
+  justify-content: space-evenly;
+ 
+}
+
+.marquee_item {
+  flex-shrink: 0;
+}
+
+
+@media (max-width: 1025px) {
+  .skills-container {
+    width: 90%;
+  }
+  .skills-button button {
+    padding: 15px 25px;
+    font-size: 15px;
+  }
+}

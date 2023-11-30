@@ -1,0 +1,96 @@
+.words-action {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+}
+.words-action > div {
+  padding-bottom: 30px;
+}
+.words-action .words-title {
+  width: 50%;
+}
+.words-action .words-title h2 {
+  color: rgb(1, 250, 250);
+  font-size: 30px;
+}
+.words-description {
+  width: 50%;
+  color: white;
+  line-height: 2;
+}
+.words-button button {
+  padding: 20px 40px;
+  color: white;
+  font-size: 15px;
+  background-color: rgb(37, 193, 193);
+  border-radius: 10px;
+  border: 1px solid rgb(37, 193, 193);
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+.words-button button:hover {
+  color: rgb(37, 193, 193);
+
+  background-color: white;
+}
+.footer-title {
+  font-size: 20px;
+  color: rgb(1, 250, 250);
+}
+.footer-contact {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+.footer-links-contact {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-links ul {
+  list-style: none;
+}
+.footer-links ul li {
+  margin: 25px 0px;
+}
+.footer-links ul li a {
+  text-decoration: none;
+  color: white;
+}
+.footer-info-title {
+  font-size: 20px;
+  color: rgb(1, 250, 250);
+}
+.first-contact {
+  padding: 20px 0;
+}
+.first-contact h4 {
+  font-weight: 1000;
+  color: white;
+}
+.first-contact p {
+  color: white;
+  padding: 10px 0px;
+}
+.footer-copy {
+  color: white;
+}
+.footer-copy p {
+  padding: 20px 0px;
+}
+@media (max-width: 1025px) {
+  .words-action {
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .words-action .words-title,
+  .words-action .words-description {
+    width: 60%;
+  }
+
+  .footer-contact {
+    width: 60%;
+    margin-top: 50px;
+  }
+}
