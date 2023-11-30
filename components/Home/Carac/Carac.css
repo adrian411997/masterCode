@@ -8,10 +8,9 @@
 
 .carac-content {
   display: flex;
-  width:90%;
+  width: 90%;
   justify-content: center;
   align-items: center;
-  
 }
 
 .carac-button {
@@ -21,13 +20,20 @@
   padding: 25px 100px;
   border-radius: 0.5em;
   font-weight: 900;
-  border:1px solid white;cursor: pointer;
-  transition: .3s ease-in-out;
+  border: 1px solid white;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
 }
-
-.carac-button button:hover{
+.carac-button button a {
+  color: black;
+  text-decoration: none;
+  transition: 0.5s ease-in-out;
+}
+.carac-button button:hover {
   background-color: black;
-  color:white;
+}
+.carac-button button:hover a {
+  color: white;
 }
 
 @media (max-width: 1025px) {

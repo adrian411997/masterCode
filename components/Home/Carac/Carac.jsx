@@ -15,7 +15,15 @@ const Carac = () => {
       </div>
 
       <div className="carac-button">
-        <button>Agenda una cita con nosotros!</button>
+        <button>
+          <a
+            href="https://calendly.com/mastercode-ar/30min"
+            target={"_blank"}
+            rel="noreferrer"
+          >
+            Agenda una entrevista con nosotros
+          </a>
+        </button>
       </div>
     </>
   );
