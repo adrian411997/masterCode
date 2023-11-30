@@ -14,7 +14,10 @@ const AboutPage = () => {
   }, []);
   const props = {
     className: "about",
-    text: "En Master Code, somos una empresa de profesionales altamente especializados en el desarrollo de software y diseño multimedia. Llevamos dos años en el mercado nacional e internacional. Estamos enfocados en identificar y satisfacer las necesidades de nuestros clientes, brindando una asesoría de la mas alta calidad, lo que nos ha permitido desarrollar ideas de negocios y mantener una visión amplia para generar proyectos de gran envergadura en cada uno de nuestros clientes.",
+    text: [
+      "En Master Code, somos una empresa de profesionales altamente especializados en el desarrollo de software y diseño multimedia. Llevamos dos años en el mercado nacional e internacional.",
+      "Estamos enfocados en identificar y satisfacer las necesidades de nuestros clientes, brindando una asesoría de la mas alta calidad, lo que nos ha permitido desarrollar ideas de negocios y mantener una visión amplia para generar proyectos de gran envergadura en cada uno de nuestros clientes.",
+    ],
     uptitle: "Sobre nosotros",
     title: "Creamos, desarrollamos y promovemos ideas para su empresa. ",
   };

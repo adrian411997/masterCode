@@ -51,3 +51,8 @@
 .bewteen {
   justify-content: space-between;
 }
+@media (max-width: 670px) {
+  .div-container {
+    width: 95%;
+  }
+}

@@ -10,31 +10,21 @@ const Form = () => {
     text: "",
     know: "",
   });
-  const [hideInput, setHideInput] = useState(false);
-  const showInput = () => {
-    if (!hideInput) {
-      setHideInput(true);
-    } else {
-      setHideInput(false);
-    }
-  };
   const handleOnChange = (e) => {
     setForm({ ...form, [e.target.name]: e.target.value });
   };
   return (
     <div className="form">
       <div className="form-container">
-        <form
-          action="mailto:metrica.agenciamkt@gmail.com"
-          method="POST"
-          encType="text/plain"
-        >
+        <form action="submit" method="POST" encType="text/plain">
           <input
             onChange={handleOnChange}
             name="nombre"
             className="input"
             placeholder="Tu nombre"
             type={"text"}
+            autoComplete="off"
+            required
           />
           <input
             onChange={handleOnChange}
@@ -42,37 +32,25 @@ const Form = () => {
             name="email"
             placeholder="Tu email"
             type={"email"}
+            required
           />
           <input
             onChange={handleOnChange}
             className="input phoneNumber"
             name="numero"
             placeholder="Telefono"
-            type={"number"}
+            type={"text"}
+            required
           />
           <textarea
             onChange={handleOnChange}
             name="text"
             placeholder="Describenos tu proyecto"
           />
+          <input type="submit" className="button-form-contact"></input>
         </form>
       </div>
-      <div className="div-button">
-        <button
-          className="button-form-contact"
-          type="submit"
-          value={"submit"}
-          disabled={
-            form.nombre === "" ||
-            form.email === "" ||
-            form.know === "" ||
-            form.text === "" ||
-            form.numero === ""
-          }
-        >
-          Enviar
-        </button>
-      </div>
+      <div className="div-button"></div>
     </div>
   );
 };

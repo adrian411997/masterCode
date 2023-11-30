@@ -1,6 +1,9 @@
-.about-container.title,
+.about-container-title,
 .about-container-description {
   padding: 20px 0px;
+}
+.about-container-title {
+  margin-top: 50px;
 }
 .about-container-title h1 {
   font-size: 60px;
@@ -8,6 +11,7 @@
 }
 .about-container-description {
   line-height: 2;
+  font-size: 20px;
   text-align: center;
 }
 .skills-space div {
@@ -23,5 +27,10 @@
   }
   .about-cards {
     width: 90%;
+  }
+}
+@media (max-width: 670px) {
+  .about-container-description {
+    font-size: 15px;
   }
 }

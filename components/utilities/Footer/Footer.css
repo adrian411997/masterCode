@@ -94,3 +94,13 @@
     margin-top: 50px;
   }
 }
+@media (max-width: 670px) {
+  .footer-links-contact {
+    flex-direction: column;
+    text-align: center;
+  }
+  .footer-copy {
+    text-align: center;
+    line-height: 2;
+  }
+}
