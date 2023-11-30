@@ -41,7 +41,7 @@
 .icons {
   margin: 10px 0px;
 }
-.icons > img {
+.icons > a {
   margin-right: 10px;
 }
 @media (max-width: 1299px) {

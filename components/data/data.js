@@ -50,7 +50,11 @@ export const tools = [
   },
   {
     url: "https://res.cloudinary.com/dni5cjwpu/image/upload/v1700613881/logoooo_900_jyhizk.png",
-    time: "900",
+    time: "1100",
+  },
+  {
+    url: "https://res.cloudinary.com/dni5cjwpu/image/upload/v1686017244/Agricola/SOBERANIA_NACIONAL_LOGO_xdml6e.png",
+    time: "1300",
   },
 ];
 export const tools1 = [

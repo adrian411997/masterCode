@@ -77,6 +77,9 @@
 .footer-copy p {
   padding: 20px 0px;
 }
+.icons a {
+  margin-right: 10px;
+}
 @media (max-width: 1025px) {
   .words-action {
     width: 100%;
