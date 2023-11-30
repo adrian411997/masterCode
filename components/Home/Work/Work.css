@@ -23,7 +23,7 @@
   margin: 20px 10px;
 }
 
-@media (max-width: 1025px) {
+@media (max-width: 1140px) {
   .work-description h1 {
     font-size: 30px;
     font-weight: 600;
@@ -33,10 +33,19 @@
     margin: 20px 0px;
   }
   .work-cards .card {
-    height: fit-content;
-    width: 70%;
+    height: 300px !important;
+    width: 40%;
 
     padding: 20px 30px;
     margin: 20px 0px;
+  }
+}
+@media (max-width: 670px) {
+  .work-cards .card {
+    width: 80%;
+  }
+  .work-description p {
+    font-size: 15px;
+    line-height: 2;
   }
 }

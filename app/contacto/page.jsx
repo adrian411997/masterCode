@@ -13,7 +13,9 @@ const Contact = () => {
   }, []);
   const props = {
     className: "about",
-    text: "Te invitamos a que nos contactes para asi poder hablar mas a fondo sobre tu proyecto y ayudarte de la manera mas eficiente posible.",
+    text: [
+      "Te invitamos a que nos contactes para asi poder hablar mas a fondo sobre tu proyecto y ayudarte de la manera mas eficiente posible. ",
+    ],
     uptitle: "CONTACTO",
     title: "Desarrollo web a medida y emprendimiento corporativo",
   };

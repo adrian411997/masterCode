@@ -69,14 +69,21 @@
   height: 100%;
   background-color: black;
 }
-@media (max-width: 425px) {
+@media (max-width: 670px) {
+  .portadaContainer {
+    width: 80%;
+  }
   .portadaContainer > div {
     padding: 10px 0px;
   }
   .portadaTitle h1 {
-    font-size: 20px;
+    font-size: 30px;
   }
   .portadaDescription {
     font-size: 15px;
+    line-height: 1.5;
+  }
+  .portadaDescription p {
+    margin: 10px 0px;
   }
 }

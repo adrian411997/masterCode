@@ -55,6 +55,11 @@
     height: fit-content !important;
   }
 }
+@media (max-width: 1140px) {
+  .card-container {
+    width: 100% !important;
+  }
+}
 @media (max-width: 1025px) {
   .card-container {
     flex-direction: column;

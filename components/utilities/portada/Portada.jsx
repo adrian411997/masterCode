@@ -15,7 +15,11 @@ const Portada = ({ data }) => {
         <div className="portadaTitle">
           <h1>{data.title}</h1>
         </div>
-        <div className="portadaDescription">{data.text}</div>
+        <div className="portadaDescription">
+          {data.text.map((t, index) => (
+            <p key={index}>{t}</p>
+          ))}
+        </div>
       </div>
     </div>
   );

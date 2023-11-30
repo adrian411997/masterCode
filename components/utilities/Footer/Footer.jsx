@@ -2,6 +2,7 @@ import React from "react";
 import Layout from "../Layout/Layout";
 import "./Footer.css";
 import { links } from "@/components/data/data";
+import Image from "next/image";
 
 const Footer = () => {
   return (
@@ -48,6 +49,28 @@ const Footer = () => {
             <div className="first-contact">
               <h4>Salta - Argentina</h4>
               <p>fdsfdsfds@fdsfsdfs.com</p>
+            </div>{" "}
+            <div className="followus-icon">
+              <div className="icons">
+                <Image
+                  src="https://res.cloudinary.com/dni5cjwpu/image/upload/v1701205194/logo_in_o0yrbw.png"
+                  alt=""
+                  width="30"
+                  height={30}
+                />
+                <Image
+                  src="https://res.cloudinary.com/dni5cjwpu/image/upload/v1701205194/png_link_ygkyhv.png"
+                  alt=""
+                  width="30"
+                  height={30}
+                />
+                <Image
+                  src="https://res.cloudinary.com/dni5cjwpu/image/upload/v1701205194/png_face_plj0vq.png"
+                  alt=""
+                  width="30"
+                  height={30}
+                />
+              </div>
             </div>
           </div>
         </div>
