@@ -1,7 +1,22 @@
-.carac-space-title {
-  color: white;
+.carac-space-minititle{
+  color:white;
+  padding-top:50px;;
+  font-size: 14px;
 }
 
+.carac-space-title {
+  color: white;
+  font-size: 26px;
+  margin:20px;
+}
+.carac-space-description{
+
+  line-height: 2;
+  color: white;
+  text-align: center;
+  font-size: 20px;
+  width: 80%;
+}
 .carac-container {
   display: flex;
 }
