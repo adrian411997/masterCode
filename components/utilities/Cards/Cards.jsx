@@ -21,7 +21,7 @@ const Cards = ({ dataInfo, className, flip, fadeup }) => {
           <div className="card-description">
             {Array.isArray(data.description) ?
               (data.description.map((d)=>
-                (<p>{d}</p>)))
+                (<p key={index}>{d}</p>)))
                 :
                 <p>{data.description}</p>}
           </div>
