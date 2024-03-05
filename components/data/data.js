@@ -60,35 +60,52 @@ export const tools = [
 export const tools1 = [
   {
     image:
-      "https://res.cloudinary.com/dni5cjwpu/image/upload/v1700525043/ex_2_b78uxx.png",
-    title: "Experiencia",
+      "https://res.cloudinary.com/dni5cjwpu/image/upload/v1709608963/marketing_digital_izopzr.png",
+    title: "MARKETING DIGITAL",
     description:
-      "Acompañamos a startups desde cero aportando software de nivel mundial y experiencia para impulsar su crecimiento de forma integral.					",
-    time: "500",
+    ["Publicidad Online", "Performance Digital", "Community Management","Branding Digital","Planes SEO","Email Marketing"],
+    time: "1300",
   },
   {
     image:
-      "https://res.cloudinary.com/dni5cjwpu/image/upload/v1700525043/co_1_ltl8ky.png",
-    title: "Impulsa",
+      "https://res.cloudinary.com/dni5cjwpu/image/upload/v1709609038/estrategia-digital_kbihu7.png",
+    title: "ESTRATEGIA DIGITAL",
     description:
-      "Ayudamos a construir con éxito proyectos de marcas globales. Confíe en nuestra experiencia para impulsar el suyo.",
+      ["Plan de ventas", "Consultoria", "Analítica Web","Viralización","Auditoría Digital","Storytelling"],
+    time: "1500",
+  },
+  {
+    image:
+      "https://res.cloudinary.com/dni5cjwpu/image/upload/v1709608800/posicionamiento_seo_xs5yje.png",
+    title: "POSICIONAMIENTO SEO",
+    description:
+      ["Landing Page SEO","Estrategias SEO","Auditorías SEO","Optimización Interna SEO","Contenido SEO","Arquitectura SEO"],
     time: "700",
   },
   {
     image:
-      "https://res.cloudinary.com/dni5cjwpu/image/upload/v1700525044/tro_1_lpergo.png",
-    title: "Innovación",
+      "https://res.cloudinary.com/dni5cjwpu/image/upload/v1709608376/metrica/zvts5rbqgmkhcspuzpdi.png",
+    title: "DISEÑO GRÁFICO",
     description:
-      "Agilizamos su desarrollo digital para superar a la competencia con proyectos de e-commerce, web, LMS, CMS y diseño UI/UX.",
+    ["Diseño logotipo","Creación de Marca","Papelería Corporativa","Tarjetas Personales","Catálogos","Packaging"],
     time: "900",
   },
   {
     image:
-      "https://res.cloudinary.com/dni5cjwpu/image/upload/v1700525044/man_2_xzgjw8.png",
-    title: "Confianza",
+      "https://res.cloudinary.com/dni5cjwpu/image/upload/v1709609213/e-commerce_kxu1qw.png",
+    title: "ECCOMERCE",
     description:
-      "Aportamos un equipo adaptable que entrega innovación, agilidad y conocimiento para impulsar el crecimiento de su negocio. Somos socios de confianza.",
+    ["Desarrollo Eccomerce","Plataforma Eccomerce","Tienda Online","Consultoría Integral","Arquitectura Escalable","Integraciones"],
     time: "1100",
+  },
+
+  {
+    image:
+      "https://res.cloudinary.com/dni5cjwpu/image/upload/v1709609212/desarrollo_meoefq.png",
+    title: "DESARROLLO",
+    description:
+      ["Websites", "Landing Pages","Catálogos Digitales","WebApps","Apps Mobile","APIs"],
+    time: "1500",
   },
 ];
 export const workAspects = [

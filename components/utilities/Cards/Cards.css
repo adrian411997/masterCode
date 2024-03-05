@@ -19,13 +19,15 @@
   border: 1px solid #007bff;
 }
 .card > div {
-  margin: 10px 0px;
+  margin-bottom: 10px;
 }
 .card-title {
-  padding: 20px 0px;
+  padding: 10px 0px;
+  font-size: 13px;
 }
 .card-description {
   line-height: 2;
+
 }
 .card-links {
   padding: 30px 0px;
@@ -43,12 +45,12 @@
   width: 95%;
 }
 .ToolsFlex > .card {
-  background-color: #181828 !important;
-  color: white;
+  text-align: center;
+  color: #c5c5c5;
   height: 300px;
   margin: 50px 0px;
-
-  width: 30%;
+  border:none !important;
+  width: 25%;
 }
 @media (max-width: 1629px) {
   .card {
