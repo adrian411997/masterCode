@@ -13,13 +13,17 @@ const Cards = ({ dataInfo, className, flip, fadeup }) => {
           className="card"
         >
           <div>
-            <Image src={data.image} width={50} height={50} alt={data.title} />
+            <Image src={data.image} width={85} height={85} alt={data.title} />
           </div>
           <div className="card-title">
             <h3>{data.title}</h3>
           </div>
           <div className="card-description">
-            <p>{data.description}</p>
+            {Array.isArray(data.description) ?
+              (data.description.map((d)=>
+                (<p>{d}</p>)))
+                :
+                <p>{data.description}</p>}
           </div>
           {data.link ? (
             <div className="card-links">
