@@ -2,15 +2,34 @@
   display: flex;
   justify-content: center;
   flex-direction: column;
-  text-align: center;
+  margin:50px 0px;
 }
 .work-description h1 {
-  font-size: 60px;
+  font-size: 40px;
   font-weight: 600;
+  text-align: center;
 }
 .work-description p {
   font-size: 20px;
   margin: 20px 0px;
+  text-align: center;
+}
+.work-container{
+  display: flex;
+  margin:50px 0px;
+}
+.work-container > div{
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.work-container-description ul li{
+  list-style: none;
+  line-height: 2;
+}
+.work-container-description ul li span{
+  margin-right: 10px;
 }
 .work-cards {
   width: 100%;
@@ -18,7 +37,6 @@
 .work-cards .card {
   height: 300px;
   width: 20%;
-
   padding: 45px 70px;
   margin: 20px 10px;
 }

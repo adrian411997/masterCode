@@ -2,6 +2,10 @@
 .about-container-description {
   padding: 20px 0px;
 }
+.name-org{
+  color:rgb(46, 30, 105, 1);
+  font-weight: bold;
+}
 .about-container-title {
   margin-top: 50px;
 }

@@ -13,10 +13,14 @@ const Form = () => {
   const handleOnChange = (e) => {
     setForm({ ...form, [e.target.name]: e.target.value });
   };
+
   return (
     <div className="form">
       <div className="form-container">
-        <form action="submit" method="POST" encType="text/plain">
+        <form 
+          method="POST" 
+          action="mailto:mastercode.ar@gmail.com"
+          encType="text/plain">
           <input
             onChange={handleOnChange}
             name="nombre"
@@ -45,9 +49,9 @@ const Form = () => {
           <textarea
             onChange={handleOnChange}
             name="text"
-            placeholder="Describenos tu proyecto"
+            placeholder="Déjanos tu consulta"
           />
-          <input type="submit" className="button-form-contact"></input>
+          <input type="submit" className="button-form-contact"/>
         </form>
       </div>
       <div className="div-button"></div>

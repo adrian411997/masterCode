@@ -4,7 +4,9 @@ import Portada from "@/components/utilities/portada/Portada";
 import Layout from "@/components/utilities/Layout/Layout";
 import Work from "@/components/Home/Work/Work";
 import AOS from "aos";
+import Carac from "@/components/Home/Carac/Carac";
 import "aos/dist/aos.css";
+import "./page.css"
 import { useEffect } from "react";
 const Servicios = () => {
   useEffect(() => {
@@ -22,9 +24,11 @@ const Servicios = () => {
   return (
     <>
       <Portada data={props} />
-      <Layout>
-        <Work />
+      <div className="empty">
+      <Layout gradient={"gradient"} rounded={"borderAll"}>
+        <Carac />
       </Layout>
+      </div>
     </>
   );
 };

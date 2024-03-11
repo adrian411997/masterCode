@@ -3,7 +3,7 @@
 import React from "react";
 import Layout from "@/components/utilities/Layout/Layout";
 import Portada from "@/components/utilities/portada/Portada";
-import Carac from "@/components/Home/Carac/Carac";
+import Work from "@/components/Home/Work/Work";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import "./page.css";
@@ -24,11 +24,11 @@ const AboutPage = () => {
   return (
     <>
       <Portada data={props} />
-      <div className="empty"></div>
-      <Layout gradient={"gradient"} rounded={"borderAll"}>
-        <Carac />
-      </Layout>{" "}
-      <div className="empty"></div>
+
+      <Layout>
+        <Work />
+      </Layout>
+
     </>
   );
 };

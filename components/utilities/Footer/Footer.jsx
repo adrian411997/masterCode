@@ -1,3 +1,5 @@
+"use client"
+
 import React from "react";
 import Layout from "../Layout/Layout";
 import "./Footer.css";
@@ -5,6 +7,9 @@ import { links } from "@/components/data/data";
 import Image from "next/image";
 
 const Footer = () => {
+  const redirect = ()=>{
+      location.href = "/contacto";
+  }
   return (
     <Layout
       justify={"bewteen"}
@@ -23,7 +28,7 @@ const Footer = () => {
           </p>
         </div>
         <div className="words-button">
-          <button>Contacto</button>
+          <button onClick={redirect}>Contacto</button>
         </div>
       </div>
       <div className="footer-contact">
@@ -48,12 +53,12 @@ const Footer = () => {
             </div>
             <div className="first-contact">
               <h4>Salta - Argentina</h4>
-              <p>fdsfdsfds@fdsfsdfs.com</p>
+              <p>mastercode.ar@gmail.com</p>
             </div>{" "}
             <div className="followus-icon">
               <div className="icons">
                 <a
-                  href="https://www.instagram.com/master_code_ar/"
+                  href="https://www.instagram.com/mastercodeagenciamkt/"
                   target="_blank"
                 >
                   <Image
@@ -64,7 +69,7 @@ const Footer = () => {
                   />
                 </a>
                 <a
-                  href="https://www.linkedin.com/in/master-code-560b032a2/"
+                  href="https://www.linkedin.com/company/102191979/admin/feed/posts/?feedType=following"
                   target="_blank"
                 >
                   <Image
@@ -75,7 +80,7 @@ const Footer = () => {
                   />
                 </a>
                 <a
-                  href="https://www.facebook.com/profile.php?id=61553235402243"
+                  href="https://www.facebook.com/mastercodeagenciamkt/"
                   target="_blank"
                 >
                   <Image

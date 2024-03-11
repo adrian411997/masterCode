@@ -10,11 +10,9 @@ const About = () => {
       </div>
       <div className="about-container-description">
         <p>
-          Nuestra empresa cuenta con profesionales altamente calificados con
-          muchos años de experiencia en el campo de las TI, nos dedicamos al
-          desarrollo de proyectos complejos y soluciones realmente sofisticadas.
-          La flexibilidad, la eficiencia y el enfoque individual a cada cliente
-          son principios básicos que seguimos en nuestro trabajo.
+        <span className="name-org">Master Code</span>, es una agencia con profesionales altamente especializados y enfocados en sastisfacer las necesidades de nuestros clientes,
+brindando una asesoria integral de la mas alta calidad, lo que nos ha permitido desarrollar ideas de negocio y mantener una vision amplia
+para generar de la mano con cada uno de nuestros clientes, proyectos de gran envergadura.
         </p>
       </div>
       <Cards dataInfo={data} className={"about-cards"} fadeup={true} />
