@@ -28,7 +28,6 @@ const IndexPage = () => {
       <Layout>
         <About />
       </Layout>{" "}
-    
       <Layout gradient={"gradient"} rounded={"borderAll"}>
         <Carac />
       </Layout>

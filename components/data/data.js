@@ -8,31 +8,31 @@ export const links = [
 export const data = [
   {
     image:
-      "https://res.cloudinary.com/dni5cjwpu/image/upload/v1700175975/1_mytlac.png",
-    title: "DESARROLLAMOS",
+      "https://res.cloudinary.com/dni5cjwpu/image/upload/v1710132225/marketing_digital_fq4nqx.png",
+    title: "MARKETING DIGITAL",
     description:
       "Diseñamos la mejor web, 100% adaptable a dispositivos móviles (Responsive).​ ",
     time: "500",
   },
   {
     image:
-      "https://res.cloudinary.com/dni5cjwpu/image/upload/v1700175975/3_dobohp.png",
-    title: "ANALIZAMOS",
+      "https://res.cloudinary.com/dni5cjwpu/image/upload/v1710132171/anuncios_c2ltjy.png",
+    title: "PUBLICIDAD DIGITAL",
     description:
       "Analizamos para encontrar la mejor solucion tecnologica de tu idea de negocio. ",
     time: "700",
   },
   {
     image:
-      "https://res.cloudinary.com/dni5cjwpu/image/upload/v1700175974/2_wddimf.png",
-    title: "CONVERTIMOS",
+      "https://res.cloudinary.com/dni5cjwpu/image/upload/v1710132225/www_lkr07x.png",
+    title: "PÁGINAS WEBS",
     description: "Generamos tráfico a tu web para convertir en ventas. ​ ",
     time: "900",
   },
   {
     image:
-      "https://res.cloudinary.com/dni5cjwpu/image/upload/v1700175974/4_ry631r.png",
-    title: "ASESORAMOS",
+      "https://res.cloudinary.com/dni5cjwpu/image/upload/v1710132225/curso-online_npzbho.png",
+    title: "CURSOS DE CAPACITACIÓN",
     description:
       "Te asesoramos en marketing online para que pueda tomar decisiones en función del mercado. ​ ",
     time: "1100",
@@ -182,3 +182,11 @@ export const workAspects = [
     time: "500",
   },
 ];
+
+export const ourCaracs=[
+  "Interpretamos las necesidades reales de cada cliente, aún cuando le resulte complejo explicarlas.",
+  " Planificamos estrategias de marketing digital que le permitirán a tu empresa destacarse por frente a la competencia.",
+  "Cuidamos tu presupuesto, y lo empleamos para acciones de publicidad online que generen resultados concretos de negocio.",
+  " Mediante datos de Google Analytics, generamos reportes claros que se envían al cliente periódicamente, brindando información precisa y transparente sobre cada etapa del proyecto.",
+  " Brindamos soluciones integrales, contamos con especialistas en cada una de las áreas del marketing digital y del inbound marketing."
+]

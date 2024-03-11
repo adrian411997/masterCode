@@ -70,7 +70,11 @@ const Header = () => {
                 <a href="/contacto">Contacto</a>
               </li>
               <li className="button-contact">
-                <a href="">¡Hablemos!</a>
+                <a 
+                  href="https://api.whatsapp.com/send?phone=https://api.whatsapp.com/send?phone=5403872540005&text=Hola,%20tengo%20una%20consulta!"
+                  target="_blank"
+                  rel="noreferrer"  
+                >¡Hablemos!</a>
               </li>
             </ul>
           </nav>

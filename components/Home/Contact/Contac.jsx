@@ -19,7 +19,7 @@ const Contac = () => {
               <h2>Siguenos:</h2>
               <div className="icons">
                 <a
-                  href="https://www.instagram.com/master_code_ar/"
+                  href="https://www.instagram.com/mastercodeagenciamkt/"
                   target="_blank"
                 >
                   <Image
@@ -41,7 +41,7 @@ const Contac = () => {
                   />
                 </a>
                 <a
-                  href="https://www.facebook.com/profile.php?id=61553235402243"
+                  href="https://www.facebook.com/mastercodeagenciamkt/"
                   target="_blank"
                 >
                   <Image

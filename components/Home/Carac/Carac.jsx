@@ -23,7 +23,7 @@ const Carac = () => {
       <div className="carac-button">
         <button>
           <a
-            href="https://calendly.com/mastercode-ar/30min"
+            href="https://api.whatsapp.com/send?phone=https://api.whatsapp.com/send?phone=5403872540005&text=Hola,%20tengo%20una%20consulta!"
             target={"_blank"}
             rel="noreferrer"
           >
