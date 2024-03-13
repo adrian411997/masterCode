@@ -9,7 +9,7 @@ const Cards = ({ dataInfo, className,  fadeup,i }) => {
         <div
           data-aos={`${fadeup ? "fade-up" : "flip-left"}`}
           data-aos-duration={data.time}
-          key={`${i}${index}`}
+          key={index}
           className="card"
         >
           <div>

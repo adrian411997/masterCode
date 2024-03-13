@@ -13,6 +13,7 @@ const Work = () => {
               src="https://res.cloudinary.com/dni5cjwpu/image/upload/v1710127708/vecteezy_3d-idea-creativa-png-ilustracion_9343605_pps7uk.png" 
               width={460}
               height={460}    
+              className="img"
             />
           </div>
           <div className="work-container-description">

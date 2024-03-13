@@ -11,7 +11,7 @@ export const data = [
       "https://res.cloudinary.com/dni5cjwpu/image/upload/v1710132225/marketing_digital_fq4nqx.png",
     title: "MARKETING DIGITAL",
     description:
-      "Diseñamos la mejor web, 100% adaptable a dispositivos móviles (Responsive).​ ",
+      " Potenciamos tu presencia en línea con estrategias innovadoras y creativas.",
     time: "500",
   },
   {
@@ -19,14 +19,14 @@ export const data = [
       "https://res.cloudinary.com/dni5cjwpu/image/upload/v1710132171/anuncios_c2ltjy.png",
     title: "PUBLICIDAD DIGITAL",
     description:
-      "Analizamos para encontrar la mejor solucion tecnologica de tu idea de negocio. ",
+      "Aprovecha al máximo tu presupuesto y obtén resultados tangibles para tu negocio.",
     time: "700",
   },
   {
     image:
       "https://res.cloudinary.com/dni5cjwpu/image/upload/v1710132225/www_lkr07x.png",
     title: "PÁGINAS WEBS",
-    description: "Generamos tráfico a tu web para convertir en ventas. ​ ",
+    description: "Diseñamos páginas web a medida que reflejan la esencia de tu marcada y cautivan a tu audiencia. ",
     time: "900",
   },
   {
@@ -34,7 +34,7 @@ export const data = [
       "https://res.cloudinary.com/dni5cjwpu/image/upload/v1710132225/curso-online_npzbho.png",
     title: "CURSOS DE CAPACITACIÓN",
     description:
-      "Te asesoramos en marketing online para que pueda tomar decisiones en función del mercado. ​ ",
+      "Ofrecemos capacitamos a emprendedores y empresas con cursos prácticos y personalizados.",
     time: "1100",
   },
 ];
