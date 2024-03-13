@@ -1,7 +1,6 @@
 "use client";
 import React from "react";
 import Portada from "../../components/utilities/portada/Portada";
-import Layout from "@/components/utilities/Layout/Layout";
 import Contac from "@/components/Home/Contact/Contac";
 import AOS from "aos";
 import "aos/dist/aos.css";
