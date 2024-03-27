@@ -8,10 +8,10 @@ const Form = () => {
     name: "",
     email: "",
     subject:"Asesoría",
-    to:"adriankiko3@gmail.com",
+    to:"mastercode.ar@gmail.com",
     message: "",
     phone: "",
-    toName:"Adrian"
+    toName:"Master Code"
 
   });
   const handleOnChange = (e) => {
