@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import "./Form.css";
 import axios from "axios"
+import Swal from "sweetalert2"
 
 const Form = () => {
   const [form, setForm] = useState({
@@ -22,13 +23,22 @@ const Form = () => {
     e.preventDefault(); // Evita el comportamiento predeterminado del formulario
 
     axios.post("https://systemnotifications20240311163137.azurewebsites.net/Notification", form)
-      .then((response) => {
-        // Maneja la respuesta exitosa si es necesario
-        console.log("Solicitud enviada correctamente:", response.data);
+      .then(() => {
+        Swal.fire({
+          title:"Exito",
+          text:"El mensaje se ha mandado con éxito",
+          icon:"success"
+        }).then((result)=>{ 
+          document.getElementById('form').reset();
+        }
+        )
       })
       .catch((error) => {
-        // Maneja los errores de la solicitud
-        console.error("Error al enviar la solicitud:", error);
+        Swal.fire({
+          title:"Error",
+          text:"Algo salio mal",
+          icon:"error"
+        })
       });
   };
   console.log("elform es:",form)
@@ -40,6 +50,7 @@ const Form = () => {
           method="POST" 
           target="_blank"
           rel="noreferrer"
+          id="form"
          >
           <input
             onChange={handleOnChange}

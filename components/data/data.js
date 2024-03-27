@@ -56,6 +56,10 @@ export const tools = [
     url: "https://res.cloudinary.com/dni5cjwpu/image/upload/v1686017244/Agricola/SOBERANIA_NACIONAL_LOGO_xdml6e.png",
     time: "1300",
   },
+  {
+    url:"https://res.cloudinary.com/dni5cjwpu/image/upload/v1711507127/dalc_png_epqate.png",
+    time:"1400"
+  }
 ];
 export const tools1 = [
   {
@@ -63,7 +67,7 @@ export const tools1 = [
       "https://res.cloudinary.com/dni5cjwpu/image/upload/v1709608963/marketing_digital_izopzr.png",
     title: "MARKETING DIGITAL",
     description:
-    ["Publicidad Online", "Performance Digital", "Community Management","Branding Digital","Planes SEO","Email Marketing"],
+    ["Publicidad Online", "Performance Digital", "Community Management","Branding Digital","Consultoría de Marketing","Email Marketing"],
     time: "1300",
   },
   {

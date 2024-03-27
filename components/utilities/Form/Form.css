@@ -90,7 +90,7 @@ textarea:focus {
 .button-form-contact:hover {
   background-color: white;
   border: 1px solid rgb(65, 39, 143);
-  color: rgb(65, 39, 143));
+  color: rgb(65, 39, 143);
 }
 @media (max-width: 1025px) {
   .contact-content {

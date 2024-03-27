@@ -1,8 +1,6 @@
 "use client";
-
 import React, { useState, useEffect } from "react";
 import "./Header.css";
-import icono from "../../assets/icono.png";
 import Image from "next/image";
 
 const Header = () => {
@@ -33,7 +31,11 @@ const Header = () => {
               height={60}
             />
           </a>
+          <div className="title-header">
+            <h3 >MASTER CODE </h3>
         </div>
+        </div>
+
         <div className="menu-icon">
           <svg
             id="resp"

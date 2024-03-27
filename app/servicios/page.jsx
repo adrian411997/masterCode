@@ -15,7 +15,7 @@ const Servicios = () => {
   const props = {
     className: "servicio",
     text: [
-      "Somos una empresa especializada en desarrollo web a la medida y servicios de externalizacion.",
+      "Como Agencia de Marketing Digital innovadora, trabajamos soluciones integrales atentas a la evolución de Internet, de las Redes Sociales y la Experiencia de los usuarios con las Marcas.",
       "Nuestra amplia gama de servicios se adapta a las necesidades individuales de cada uno ya que nos mantenemos actualizados con las últimas tendencias y tecnologías en desarrollo para garantizar que nuestros clientes reciban las soluciones más innovadoras y efectivas. Confíe en nosotros para llevar su presencia en línea al siguiente nivel.",
     ],
     uptitle: "SERVICIOS",

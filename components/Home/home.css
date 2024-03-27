@@ -2,7 +2,7 @@
   text-align: center;
 }
 .homeTitle .mainTitle {
-  font-size: 60px;
+  font-size: 55px;
   color: #ffff;
 }
 .homeTitle h1 span {
@@ -20,7 +20,7 @@
   font-size: 20px;
   color: #ffff;
 }
-.homeSubtitle button {
+.homeSubtitle a {
   margin: 30px 0px;
   padding: 25px 40px;
   background-color: rgb(37, 193, 193);
@@ -31,6 +31,7 @@
   border: 1px solid rgb(37, 193, 193);
   transition: 0.3s ease-in-out;
   cursor: pointer;
+  text-decoration: none;
 }
 .homeSubtitle button:hover {
   background-color: white;

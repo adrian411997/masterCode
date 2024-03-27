@@ -15,7 +15,8 @@
     "next": "13.5.6",
     "react": "^18",
     "react-dom": "^18",
-    "react-simple-typewriter": "^5.0.1"
+    "react-simple-typewriter": "^5.0.1",
+    "sweetalert2": "^11.10.7"
   },
   "devDependencies": {
     "eslint": "^8",
